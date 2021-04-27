@@ -1,0 +1,25 @@
+<div id="textsection">
+    <div class="simpletext">
+      <h1> {{ section.settings.textbox }} </h1>
+      <h3> {{ section.settings.text }} </h3>
+    </div>
+  </div>
+  {% schema %}
+    {
+      "name": "Text Box",
+      "settings": [
+        {
+          "id": "textbox",
+          "type": "text",
+          "label": "Heading",
+          "default": "Title"
+        },
+        {
+          "id": "text",
+          "type": "richtext",
+          "label": "Add custom text below",
+          "default": "<p>Add your text here</p>"
+        }
+      ]
+    }
+  {% endschema %}
