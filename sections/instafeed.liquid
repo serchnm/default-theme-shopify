@@ -1,0 +1,20 @@
+<style>#insta-feed{width:{{section.settings.feed_width}}%;}#insta-feed h2{font-size:{{section.settings.heading_size}}px;font-family: {{section.settings.heading_font.family }};}{{ section.settings.heading_font | font_face }}</style>
+<section id="product-instagram-feed">
+    <h2 id="instagram-feed-heading">{{ section.settings.instagram_feed_title }}</h2>
+    <div id="inner-content-wrapper">
+      <div id="insta-feed"></div>
+    </div>
+  </section>
+{% schema %}
+{
+  "name" : "Instagram Feed",
+  "settings": [
+      {
+        "type": "text",
+        "id": "instagram_feed_title",
+        "label": "Instagram Feed Title",
+        "default": "#eatoomph"
+      }
+    ]
+}
+{% endschema %}

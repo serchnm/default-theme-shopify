@@ -271,6 +271,13 @@
           "heading": "You may also like",
           "show_vendor": false
         }
+      },
+      "snavarro-text-section": {
+        "type": "snavarro-text-section",
+        "settings": {
+          "textbox": "dvcxvcxvcx",
+          "text": "<p>Add your text here<\/p>"
+        }
       }
     },
     "content_for_index": [
